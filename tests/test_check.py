@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from modulariser import check, hard_checks, validate_item
+from modulariser.check import check, hard_checks, validate_item
 
 EX = Path(__file__).resolve().parent.parent / "examples"
 
